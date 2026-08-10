@@ -28,7 +28,7 @@ summary: 了解 NetApp Console 本機部署中各項功能和資料服務的最�
 [[introducing-netapp-console-local-deployment]]
 === 介紹 NetApp Console 本地部署
 
-https://docs.netapp.com/us-en/console-local/netapp-console-local.html["學習 NetApp Console 本機部署"]。
+https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["學習 NetApp Console 本機部署"]。
 
 
 
@@ -54,17 +54,6 @@ https://docs.netapp.com/us-en/console-local/netapp-console-local.html["學習 Ne
 
 
 有關保護 VMware 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保護 VMware 工作負載概述"]。
-
-
-
-==== Oracle Database 工作負載增強功能
-
-在此版本中、Oracle Database 工作負載引進下列增強功能：
-
-* *可插拔資料庫 （PDB） 還原與 Clone*：Backup and Recovery for NetApp Console 服務現在支援還原與複製可插拔資料庫。
-
-
-有關保護 Oracle Database 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["保護 Oracle Database 工作負載概述"]。
 
 
 
