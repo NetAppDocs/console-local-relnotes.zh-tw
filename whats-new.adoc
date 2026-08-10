@@ -21,12 +21,14 @@ summary: 了解 NetApp Console 本機部署中各項功能和資料服務的最�
 [[10-august-2026]]
 == 2026年8月10日
 
-未解析的指令位於 <stdin> - include::_include/console-local.adoc[] :leveloffset: +1
+
+
+[[netapp-console-local-deployment]]
+=== NetApp Console 本地部署
 
 
 
-[[introducing-netapp-console-local-deployment]]
-=== 介紹 NetApp Console 本地部署
+==== 介紹 NetApp Console 本地部署
 
 https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["學習 NetApp Console 本機部署"]。
 
