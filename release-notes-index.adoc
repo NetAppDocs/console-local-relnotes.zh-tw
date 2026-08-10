@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: release-notes-index.html 
+keywords: release notes 
+summary: 查看 NetApp Console 本機部署功能和 NetApp 資料服務的完整版本說明。 
+---
+= 版本說明索引
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+查看 NetApp Console 本機部署功能和 NetApp 資料服務的完整版本說明。
+
+
+
+[[netapp-console-local-deployment]]
+== NetApp Console 本地部署
+
+* https://docs.netapp.com/us-en/console-local/whats-new.html["NetApp Console 本地部署"^]
+
+
+
+
+[[data-services]]
+== 資料服務
+
+* https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["備份與還原"^]
+

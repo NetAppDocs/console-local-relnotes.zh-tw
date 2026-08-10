@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, backup and recovery, ontap clusters, alerts, identity and access management, iam, recovery, netapp console local deployment, console local, local' 
+summary: 了解 NetApp Console 本機部署中各項功能和資料服務的最新變更。 
+---
+= NetApp Console 本地部署的最新變更
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+了解 NetApp Console 本機部署功能和資料服務的最新變更。
