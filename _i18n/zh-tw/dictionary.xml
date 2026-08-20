@@ -105,4 +105,6 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Oracle 資料庫工作負載</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">有關保護 Oracle Database 工作負載的詳細資訊，請參閱<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>。</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
+  <block id="d2a0f46558d1ad15a1efcaa26aef1b39" category="inline-link">了解 NetApp Console 本地部署、NetApp Console SaaS 和私有模式之間的差異</block>
+  <block id="fc43c258a671e0d243e8a95a48956300" category="paragraph"><block ref="a79ef635b40614d2cd5c555de517dd6f" category="inline-link-rx"></block>。</block>
 </blocks>
