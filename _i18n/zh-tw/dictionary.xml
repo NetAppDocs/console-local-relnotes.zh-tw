@@ -40,27 +40,14 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社群</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">近期變更</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">ONTAP Volumes 工作負載增強功能</block>
-  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：</block>
-  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*支援 S3 相容的雲端儲存*：NetApp Backup and Recovery for Volumes 工作負載現在支援備份到 S3 相容的雲端儲存。</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">保護 ONTAP Volumes 工作負載概述</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>。</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Hyper-V 工作負載增強功能</block>
-  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">在此版本中、Hyper-V 工作負載引入了以下增強功能：</block>
-  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*將檔案和資料夾還原到客體 VM 的功能改進*：現在您可以將主要或次要儲存設備上快照中的檔案和資料夾還原到客體 Windows VM。CIFS 和 SAN VM 現在支援此功能。</block>
-  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">建立和管理 Hyper-V 工作負載的保護群組</block>
-  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*保護群組現在使用主機時區排程*：保護群組現在使用 Hyper-V 主機的時區。在引入主機時區排程功能之前建立的保護群組將繼續使用其先前設定的時間（通常為 UTC）。若要將這些保護群組更新為使用 Hyper-V 主機時區，您必須重新建立排程。如需詳細資訊，請參閱<block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block>。</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">VMware 工作負載增強功能</block>
-  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">在此版本中、VMware 工作負載引進下列增強功能：</block>
-  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">建立並管理 VMware 工作負載的保護群組</block>
-  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*保護群組現在使用主機時區排程*：保護群組現在使用宿主 VMware vCenter 伺服器的時區。在引入主機時區排程功能之前建立的保護群組將繼續使用先前設定的時區（通常為 UTC）運作。若要使用 vCenter 時區，您必須重新建立排程。如需詳細資訊，請參閱<block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block>。</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">保護 VMware 工作負載概述</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">有關保護 VMware 工作負載的詳細資訊，請參閱<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>。</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Kubernetes 工作負載增強功能</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">在此版本中、Kubernetes 工作負載引入了以下增強功能：</block>
-  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*：此版本包含 Trident Protect 26.06。</block>
-  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*恢復期間跳過應用程式建立*：現在您可以在復原作業期間跳過自動建立應用程式自訂資源物件。這樣可以減少應用程式清單中不必要的條目。</block>
-  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*還原 VM 持久性磁碟區請求*：還原 VM 型應用程式時，現在可以還原個別持久性磁碟區請求，而無需還原整個虛擬機器，當特定磁碟或磁碟區受到損毀或資料遺失影響時，可加快復原速度。</block>
-  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*作業監控改進*：作業監控功能現已增強，可更清楚顯示 Kubernetes 保護作業的狀態。您可以查看作業和子作業的詳細狀態資訊，以及每個作業使用的目標儲存。</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">保護 Kubernetes 工作負載概述</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">有關保護 Kubernetes 工作負載的詳細資訊，請參閱<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>。</block>
   <block id="66591c0e71be05bd24e1869944b92db6" category="doc">增強對所有工作負載的多儲存貯體支援</block>
@@ -71,8 +58,6 @@
   <block id="258ea65dfbe28db96b93f873d22fbf91" category="inline-link">學習 NetApp Console 本機部署</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
   <block id="de2e4685966d24481dfab35c95ad44dc" category="section-title">2026年7月13日</block>
-  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">2026 年 6 月 15 日</block>
-  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">2026 年 6 月 08 日</block>
   <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">一般 NetApp Backup and Recovery 增強功能</block>
   <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*支援 NetApp Console 本機部署*：此 NetApp Backup and Recovery 版本以預覽狀態支援 NetApp Console 本機部署。</block>
   <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 天作業保留*：Backup and Recovery 現在會在作業監視器中保留作業資訊 90 天。</block>
@@ -84,8 +69,6 @@
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*優先執行還原作業而非備份作業*：現在，在還原虛擬機器或檔案時，您可以優先執行還原作業而非備份作業。</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*無需啟動 Backup and Recovery 即可探索 ONTAP 系統和磁碟區*：您現在無需啟動 Backup and Recovery 即可探索系統和磁碟區。</block>
   <block id="d84803ce394c9284844fcf1a08967ee4" category="paragraph"><block ref="a11bdddbf642d1f60f3b9997ef8c00d9" category="inline-link-rx"></block>。</block>
-  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">使用 NetApp Backup and Recovery 的 Hyper-V 保護工作流程</block>
-  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">有關保護 Hyper-V 工作負載的詳細資訊，請參閱<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>。</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">在此版本中，Hyper-V 工作負載引入了以下增強功能：</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*將物件儲存備份還原到備用位置*：您現在可以將 Hyper-V 虛擬機器、檔案和資料夾從物件存放區還原到備用儲存設備位置。</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Hyper-V 工作負載</block>
@@ -107,4 +90,13 @@
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
   <block id="d2a0f46558d1ad15a1efcaa26aef1b39" category="inline-link">了解 NetApp Console 本地部署、NetApp Console SaaS 和私有模式之間的差異</block>
   <block id="fc43c258a671e0d243e8a95a48956300" category="paragraph"><block ref="a79ef635b40614d2cd5c555de517dd6f" category="inline-link-rx"></block>。</block>
+  <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">在此版本中，KVM、Hyper-V 和 VMware 工作負載引入了以下增強功能：</block>
+  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*VM 主機探索期間的認證資料選擇*：註冊 KVM、Hyper-V 或 VMware 主機時，您現在可以使用已新增至 Backup and Recovery 的認證資料。</block>
+  <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">*虛擬機器的跨磁碟保護*：對於 CIFS 配置，Backup and Recovery 現在支援保護保護群組中每個虛擬機器所連接的每個磁碟。這包括分佈在多個 ONTAP 磁碟區或 ONTAP 儲存設備系統上的檔案（跨磁碟），以及僅限於單一位置的檔案。</block>
+  <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">ONTAP Volumes 工作負載增強</block>
+  <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">在此版本中，ONTAP Volumes 工作負載引入了以下預覽增強功能：</block>
+  <block id="921187f214ef75f0b99f59d69af64c46" category="paragraph">*每日備份資料傳輸報告*： NetApp Backup and Recovery for Volumes 現已在「報告」標籤下新增每日備份資料傳輸報告，讓您獲得整個環境中每日備份和複寫資料傳輸活動的可見度。您可以產生整個帳戶或選定儲存設備系統的報告，按日期範圍和保護類型進行篩選，並將結果下載為 CSV 檔案。</block>
+  <block id="8efecd04b299fc5bba0c5bb50d5d5be9" category="inline-link">了解使用 NetApp Backup and Recovery 的 ONTAP Volume 保護</block>
+  <block id="6ca40fed8a7133003ac7b662160a7e13" category="paragraph">有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱<block ref="2a59f28eae334d4c500755e30c1cf84e" category="inline-link-rx"></block>。</block>
+  <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">2026 年 9 月 16 日</block>
 </blocks>
