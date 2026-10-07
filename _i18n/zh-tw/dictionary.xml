@@ -119,4 +119,5 @@
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*改進的 Volume 索引狀態報告*：ONTAP Volumes 儀表板現在透過針對不符合索引條件的 Volume 和快照複本引入<block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block>狀態，更準確地報告索引狀態。此<block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block>狀態現在保留給等待索引的 Volume，且 Volume 詳細資料現在會顯示每個快照的索引狀態，並帶有懸停文字來解釋為何 Volume 或快照複本不會被索引。</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*NetApp AFX 支援*：您現在可以保護託管在 2 節點和 4 節點 NetApp AFX 叢集上的 Volume。</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Cloud Volumes ONTAP Azure Entra ID 支援*：如果您不想使用儲存設備帳戶存取金鑰進行 Azure 驗證，現在可以對 Azure 物件儲存儲存區組態使用 Microsoft Entra ID 驗證。此選項適用於執行 ONTAP 9.16.1 或更新版本的 Azure 系統中的 Cloud Volumes ONTAP。</block>
+  <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">VMware 工作負載增強</block>
 </blocks>
