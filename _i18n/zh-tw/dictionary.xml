@@ -126,4 +126,5 @@
   <block id="2f75ea4c51ce88400f5201fdeb2ccb9d" category="inline-link">了解如何使用 NetApp Backup and Recovery 保護 Microsoft SQL Server 工作負載</block>
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">如需保護 Microsoft SQL Server 工作負載的詳細資訊，請參閱<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*工作監控器自訂日期範圍篩選*：您現在可以透過在工作監控器的行事曆中選擇自訂的開始和結束日期，來搜尋過去 90 天的工作。</block>
 </blocks>
