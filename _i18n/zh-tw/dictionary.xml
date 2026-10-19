@@ -127,4 +127,6 @@
   <block id="a5e96f4320434690f042cf906acacdcd" category="paragraph">如需保護 Microsoft SQL Server 工作負載的詳細資訊，請參閱<block ref="36e999a623e2068d9719d9ca1143b559" category="inline-link-rx"></block>。</block>
   <block id="e019cb225a4644922cdd06575b099710" category="section-title">2026年10月12日</block>
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*工作監控器自訂日期範圍篩選*：您現在可以透過在工作監控器的行事曆中選擇自訂的開始和結束日期，來搜尋過去 90 天的工作。</block>
+  <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 支援*：NetApp Backup and Recovery 現在支援使用保護群組來保護使用 Oracle Data Guard 實現高可用度的主資料庫和備用資料庫。</block>
+  <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026 年 10 月 19 日</block>
 </blocks>
