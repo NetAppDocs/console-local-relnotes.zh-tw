@@ -129,4 +129,18 @@
   <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*工作監控器自訂日期範圍篩選*：您現在可以透過在工作監控器的行事曆中選擇自訂的開始和結束日期，來搜尋過去 90 天的工作。</block>
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Oracle Data Guard 支援*：NetApp Backup and Recovery 現在支援使用保護群組來保護使用 Oracle Data Guard 實現高可用度的主資料庫和備用資料庫。</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">2026 年 10 月 19 日</block>
+  <block id="d2ebbd36608739936bb939c9de72a23a" category="paragraph">在此版本中，NetApp Backup and Recovery 針對 Kubernetes 工作負載引入了以下增強功能：</block>
+  <block id="cc7c8e0fe116e37f04e0ad62644d821b" category="list-text">*Trident Protect 26.10*：此版本包含 Trident Protect 26.10。</block>
+  <block id="ca663f12e620da9687b7846a60e5d2e7" category="list-text">*ontap-nas-economy 和 ontap-san-economy 驅動程式支援*：現在您可以保護由 NetApp Trident<block ref="caafdf62a2c609bfa5316118231a1007" prefix=" " category="inline-code"></block> 驅動程式（Qtree）和<block ref="3016c12c1db45f14c80c9c1731b9c26a" prefix=" " category="inline-code"></block> 驅動程式（LUN）配置的持續性 Volume 宣告（PVC）。使用經濟型驅動程式保護 PVC 時，整個底層 FlexVol 或 LUN 都會受到保護。您可以從這些備份中還原個別的 PVC。</block>
+  <block id="d3ea67062b764fc121c2313921544714" category="list-text">*Kubernetes 感知警報*：NetApp Console 現在會針對每個 Kubernetes 應用程式發送一次 Kubernetes 警報，而不是針對每個 Volume 發送一次。</block>
+  <block id="56763801785ca9815df36fb133a8847a" category="list-text">*Volume 群組快照支援*：現在您可以在定義 Kubernetes 應用程式時建立 Volume 群組。Volume 群組可讓您將多個 Volume 一起快照為損毀狀況一致的集合，確保群組內所有 Volume 的資料一致性。</block>
+  <block id="1d458bfacd6d519628c6da6c1cb44452" category="list-text">*S3 相容物件儲存支援*：您現在可以透過新增備份目標認證資料和設定保護原則，將 Kubernetes 應用程式資源和資料備份到 S3 相容物件儲存。</block>
+  <block id="c49afcf4c9d7fb7f9e3e56e33e3ed3a8" category="paragraph">在此版本中，NetApp Backup and Recovery 針對 ONTAP Volumes 工作負載引入了下列增強功能：</block>
+  <block id="c087f837ef797de43d9ebd1a7d125236" category="list-text">*保護報告*：NetApp Backup and Recovery 現在支援建立和下載 ONTAP Volumes 工作負載的擴充報告。</block>
+  <block id="b9ba826047adb428b13135e4a8370ce8" category="list-text">*選擇在註銷 ONTAP 系統時是否保留備份*：當您從 NetApp Backup and Recovery 註銷 ONTAP 系統時，現在可以選擇捨棄先前備份的資料，或將其保留以供還原。NetApp Backup and Recovery 文件現在包含有關在系統註銷後還原保留資料的說明。</block>
+  <block id="147e4e035d3742c8a163c4282707c86d" category="inline-link">取消註冊系統的 Backup and Recovery</block>
+  <block id="113ea0f6ada6e0a0faeef3e476b36daa" category="paragraph">更多詳情請參閱<block ref="d430b7e541ef6ef0ab6b72278c77300c" category="inline-link-rx"></block>。</block>
+  <block id="4218ebde887e47d99313814e89fca1dc" category="paragraph">在這個版本中，在這個版本中，NetApp Backup and Recovery 針對 Oracle 資料庫工作負載引入了下列增強功能：</block>
+  <block id="d2a0591e201dfac56fdea850632dc8e3" category="paragraph">*還原到備用位置*：NetApp Backup and Recovery 現在支援將 Oracle 資料庫還原到備用位置（不同的註冊主機）。</block>
+  <block id="b0609734250ba6ba4d0839963ce55146" category="section-title">2026 年 10 月 26 日</block>
 </blocks>
