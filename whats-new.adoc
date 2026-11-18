@@ -18,6 +18,28 @@ summary: 了解 NetApp Console 本機部署中各項功能和資料服務的最�
 
 
 
+[[09-november-2026]]
+== 2026年11月9日
+
+
+
+[[backup-and-recovery]]
+=== 備份與還原
+
+
+
+==== Hyper-V 工作負載增強
+
+在此版本中，NetApp Backup and Recovery 針對 Hyper-V 工作負載引進了下列增強功能：
+
+*NetApp MetroCluster 支援增強功能*：NetApp Backup and Recovery 現在支援在 NetApp MetroCluster 組態中，於切換或切回作業前後保護 Hyper-V 主機。
+
+有關在 NetApp MetroCluster 組態中保護 Hyper-V 主機的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-discover-hyperv.html["探索並管理 Hyper-V 工作負載"^]。
+
+有關保護 Hyper-V 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保護 Hyper-V 工作負載"^]。
+
+
+
 [[26-october-2026]]
 == 2026 年 10 月 26 日
 
@@ -243,117 +265,3 @@ https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["
 *每日備份資料傳輸報告*： NetApp Backup and Recovery for Volumes 現已在「報告」標籤下新增每日備份資料傳輸報告，讓您獲得整個環境中每日備份和複寫資料傳輸活動的可見度。您可以產生整個帳戶或選定儲存設備系統的報告，按日期範圍和保護類型進行篩選，並將結果下載為 CSV 檔案。
 
 有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["了解使用 NetApp Backup and Recovery 的 ONTAP Volume 保護"]。
-
-
-
-[[17-august-2026]]
-== 2026年8月17日
-
-
-
-[[backup-and-recovery]]
-=== 備份與還原
-
-
-
-==== Hyper-V 工作負載增強功能
-
-在此版本中，Hyper-V 工作負載引入了以下增強功能：
-
-*將物件儲存備份還原到備用位置*：您現在可以將 Hyper-V 虛擬機器、檔案和資料夾從物件存放區還原到備用儲存設備位置。
-
-有關保護 Hyper-V 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保護 Hyper-V 工作負載"]。
-
-
-
-==== Kubernetes 工作負載增強功能
-
-在此版本中、Kubernetes 工作負載引入了以下增強功能：
-
-* *Trident Protect 26.08*：此版本包含 Trident Protect 26.08。
-* *備份重試*：您現在可以在 Kubernetes 保護原則的進階設定中啟用備份重試，並設定重試次數和重試間隔。
-* *部分備份成功*：您現在可以在 Kubernetes 保護原則中設定進階設定，以便在個別資源發生故障時繼續備份，從而使備份作業部分成功完成。這樣，即使某些資源在備份作業期間發生故障，您仍然可以還原已備份的資源。
-* *損毀狀況一致與 VM 一致備份*：Backup and Recovery for NetApp Console 服務現在支援設定保護原則，以建立損毀狀況一致或 VM 一致的備份或快照。您還可以自訂在保護作業期間執行 VM 凍結的方式。
-* *Console 代理程式 IP 位址變更時重新連接 Kubernetes 叢集*：Backup and Recovery for NetApp Console 服務現在可讓您在代理程式的 IP 位址變更時，將叢集重新連接至其 Console 代理程式。
-* *將叢集移轉至新的 Console 代理程式*：Backup and Recovery for NetApp Console 服務現在可讓您在原始代理程式失敗或被刪除時，將叢集移轉至新的 Console 代理程式，以確保應用程式保護不中斷。
-
-
-有關保護 Kubernetes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保護 Kubernetes 工作負載"]。
-
-
-
-==== Oracle 資料庫工作負載增強
-
-在此版本中、Oracle Database 工作負載引進下列增強功能：
-
-* *可插拔資料庫 (PDB) 還原*：現在可以還原單一可插拔資料庫 (PDB) 和 PDB 表空間，包括時間點恢復。
-* *可插拔資料庫 (PDB) Clone*：現在可以將單一 PDB Clone 到現有的目標 Container 資料庫 （CDB） 中，並且可以選擇在 Clone 整個 Container 資料庫時排除 PDB。
-
-
-有關保護 Oracle Database 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["了解如何使用 NetApp Backup and Recovery 保護 Oracle 資料庫工作負載"]。
-
-
-
-[[10-august-2026]]
-== 2026年8月10日
-
-
-
-[[netapp-console-local-deployment]]
-=== NetApp Console 本地部署
-
-
-
-==== 介紹 NetApp Console 本地部署
-
-https://docs.netapp.com/us-en/console-local/concept-netapp-console-local.html["學習 NetApp Console 本機部署"]。
-
-https://docs.netapp.com/us-en/console-local/console-differences.html["了解 NetApp Console 本地部署、NetApp Console SaaS 和私有模式之間的差異"]。
-
-
-
-[[backup-and-recovery]]
-=== 備份與還原
-
-
-
-==== 一般 NetApp Backup and Recovery 增強功能
-
-* *支援 NetApp Console 本機部署*：此 NetApp Backup and Recovery 版本以預覽狀態支援 NetApp Console 本機部署。
-* *90 天作業保留*：Backup and Recovery 現在會在作業監視器中保留作業資訊 90 天。
-
-
-
-
-==== VMware 工作負載增強功能
-
-在此版本中、VMware 工作負載引進了以下增強功能：
-
-* *SAN VM 還原至備用位置支援*：您現在可以將基於 SAN 的 VM 備份還原至備用位置。
-* *支援批次刪除備份*：現在可以一次刪除多個備份。
-
-
-有關保護 VMware 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["保護 VMware 工作負載概述"]。
-
-
-
-==== Kubernetes 工作負載增強功能
-
-在此版本中、Kubernetes 工作負載引入了以下增強功能：
-
-* *預覽版支援氣隙資源*：如果在 NetApp Console 本機部署中執行 NetApp Backup and Recovery，您可以探索、保護和還原氣隙 Kubernetes 資源。此功能在此版本中為預覽功能。
-
-
-有關保護 Kubernetes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["保護 Kubernetes 工作負載概述"]。
-
-
-
-==== ONTAP Volumes 工作負載增強功能
-
-在此版本中，ONTAP Volumes 工作負載引入了以下增強功能：
-
-* *優先執行還原作業而非備份*：現在，在還原磁碟區、檔案或資料夾時，您可以優先執行還原作業而非備份作業。
-* *無需啟動 Backup and Recovery 即可探索 ONTAP 系統和磁碟區*：您現在無需啟動 Backup and Recovery 即可探索系統和磁碟區。
-
-
-有關保護 ONTAP Volumes 工作負載的詳細資訊，請參閱 https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["保護 ONTAP Volumes 工作負載概述"]。
